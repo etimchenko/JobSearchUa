@@ -100,6 +100,7 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AppDelegate.cs.txt" />
     <Content Include="Entitlements.plist" />
     <Content Include="ToDo-MvvmCross\_ iOS UI.txt" />
   </ItemGroup>
