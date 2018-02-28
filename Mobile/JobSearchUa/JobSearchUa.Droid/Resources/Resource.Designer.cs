@@ -102,11 +102,11 @@ namespace JobSearchUa.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int MvvmCrossTagId = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int MvvmCrossTagId = 2131034112;
 			
-			// aapt resource value: 0x7f040001
-			public const int MvxBindingTagUnique = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int MvxBindingTagUnique = 2131034113;
 			
 			static Id()
 			{
@@ -121,14 +121,11 @@ namespace JobSearchUa.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			// aapt resource value: 0x7f040000
+			public const int MainView = 2130968576;
 			
-			// aapt resource value: 0x7f030001
-			public const int MainView = 2130903041;
-			
-			// aapt resource value: 0x7f030002
-			public const int SplashScreen = 2130903042;
+			// aapt resource value: 0x7f040001
+			public const int SplashScreen = 2130968577;
 			
 			static Layout()
 			{
@@ -140,11 +137,27 @@ namespace JobSearchUa.Droid
 			}
 		}
 		
+		public partial class Mipmap
+		{
+			
+			// aapt resource value: 0x7f030000
+			public const int ic_launcher = 2130903040;
+			
+			static Mipmap()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Mipmap()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int app_name = 2131099648;
+			// aapt resource value: 0x7f070000
+			public const int app_name = 2131165184;
 			
 			static String()
 			{
@@ -159,8 +172,8 @@ namespace JobSearchUa.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Theme_Splash = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Theme_Splash = 2131099648;
 			
 			static Style()
 			{
